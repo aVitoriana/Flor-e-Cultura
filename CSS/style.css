@@ -1,0 +1,133 @@
+header{
+background:#96d475;
+width: auto;
+height: 200px;
+}
+
+.nav nav-tabs{
+text-align: center;
+}
+
+.nav-item{
+padding-top:10px;
+color: white;
+font-size: 20px;
+display: inline;
+margin-right: 60px;
+margin-left: 60px;
+}
+
+.nav-link{
+color: aliceblue;
+}
+
+.nav-link:hover{
+color: grey;
+background-color: honeydew;
+}
+
+.logo{
+margin-left: 30%;
+margin-right: 30%;
+width: 700px;
+}
+
+body{
+background: ghostwhite;
+}
+
+body p{
+margin-top: 80px;
+margin-bottom: 50px;
+color: grey;
+font-size: 20px;
+} 
+
+.p1{
+text-align: right;
+margin-left: 50%;
+margin-right: 10%;
+}
+
+.p2{
+text-align: left;
+margin-left: 10%;
+margin-right: 50%;
+}
+
+footer{
+height: 150px;
+margin-top: 100px;
+background:#96d475;
+}
+
+.footer-h{
+font-size: 17px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+padding-top: 50px;
+color: white;
+}
+
+.footer-p{
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+text-decoration: none;
+color: rgb(21, 92, 42);
+padding-right: 42%;
+padding-left: 42%;
+}
+
+.footer-p:hover{
+color: beige;
+}
+
+.img-flor{
+width: 150px;
+}
+
+.produtos{
+    align-items: center;
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0px;
+    }
+    
+    .produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 26%;
+    margin: 1.5%;
+    box-sizing: border-box;
+    border: 3px solid #96d475;
+    border-radius: 35px;
+    }
+    
+    .produtos li:hover{
+    border-color: rgb(195, 240, 106);
+    }
+    
+    .produtos li:active{
+    border-color: #527952;
+    }
+    
+    .produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    }
+    
+    .flor{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    }
+  
+    .preco{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+    
