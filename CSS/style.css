@@ -2,11 +2,11 @@ header{
 background:#96d475;
 width: auto;
 height: 200px;
-}
+      }
 
 .nav nav-tabs{
 text-align: center;
-}
+             }
 
 .nav-item{
 padding-top:10px;
@@ -15,33 +15,35 @@ font-size: 20px;
 display: inline;
 margin-right: 60px;
 margin-left: 60px;
-}
+         }
 
 .nav-link{
 color: aliceblue;
-}
+         }
 
 .nav-link:hover{
 color: grey;
 background-color: honeydew;
-}
+               }
 
 .logo{
-margin-left: 30%;
-margin-right: 30%;
+margin-left: 40%;
+margin-right: 40%;
 width: 700px;
-}
+     }
 
 body{
 background: ghostwhite;
-}
+    }
 
 body p{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
 margin-top: 80px;
 margin-bottom: 50px;
 color: grey;
 font-size: 20px;
-} 
+      } 
 
 .p1{
 text-align: right;
@@ -75,8 +77,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
 text-decoration: none;
 color: rgb(21, 92, 42);
-padding-right: 42%;
-padding-left: 42%;
+padding-right: 40%;
+padding-left: 40%;
 }
 
 .footer-p:hover{
