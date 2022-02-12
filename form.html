@@ -4,7 +4,7 @@
 <head> 
 
   <meta charset="utf-8">
-  <title> Floricultura </title>
+  <title> Formulário </title>
   <meta name="viewport" content="width=device-width, initial-escale=1.0">
   <link rel="icon" type="image/png" sizes="16x16" href="../Flor e Cultura/Favicon/favicon.png">
   <link rel="stylesheet" type="text/css" href="../Flor e Cultura/CSS/bootstrap.min.css"
@@ -35,31 +35,42 @@
 
 <main>
      
-    <form>
+    <form class="formulario">
 
         <label>Nome Completo:</label>
         <input type="text" id="nome" class="input-padrao">
+        
+<div class="break"></div>
 
-        <label>E-mail:</label>
+        <label>E-mail Favorito:</label>
         <input type="email" id="email" class="input-padrao" required place holder="seuemail@domínio.com">
+        
+<div class="break"></div>
 
         <label>Telefone:</label>
         <input type="tel" id="tel" class="input-padrao" required place holder="(xx) xxxxx-xxxx">
+       
+<div class="break"></div>
 
         <label>Mensagem:</label>
+
+<div class="break"></div>
+
         <textarea cols="68" rows="14" class="input-padrao"></textarea>
 
     <fieldset>
 
         <legend>Como podemos entrar em contato contigo?</legend>
 
-        <label for="radio-whats"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+        <label class="marca" for="radio-whats"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
 
-        <label for="radio-email"><input type="radio" name="contato" value="e-mail" id="radio-email">E-mail</label>	
+        <label class="marca" for="radio-email"><input type="radio" name="contato" value="e-mail" id="radio-email">E-mail</label>	
 
      </fieldset>
 
-        <label><input type="checkbox">Gostaria de receber novidades da Brechozera por e-mail?</label>
+        <label class="marca"><input class="marca" type="checkbox">Gostaria de receber novidades da Flor e Cultura por e-mail?</label>
+
+<div class="break"></div>
 
         <input type="submit" value="Enviar" class="bot">
           

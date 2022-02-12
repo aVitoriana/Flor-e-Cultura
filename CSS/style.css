@@ -58,7 +58,7 @@ margin-left: 10%;
 margin-right: 50%;
    }
 
-.img-flor{
+.img-prod{
 width: 150px;
          }
 
@@ -92,7 +92,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 25px;
             }
 
-.flor{
+.prod{
 margin-top: 10px;
 font-size: 25px;
 font-weight: bold;
@@ -110,6 +110,34 @@ margin-bottom: 5px;
 flex-basis: 100%;
 width: 0;
               }
+
+body {
+text-align: center;
+     }
+form {
+display: inline-block;
+padding-top: 80px;
+margin-top: 30px;
+     }
+
+input{
+width: 89%;
+padding: 12px 20px;
+margin: 10px 0;
+box-sizing: border-box;
+border-radius: 30px;
+outline: none;
+font-size: 20px;
+      }
+
+label{
+font-size: 20px;      
+}
+
+.marca{
+margin-left: 10px;
+margin-right: 10px;
+     }
 
 footer{
 height: 150px;
@@ -135,7 +163,6 @@ font-size: 14px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-decoration: none;
 color: rgb(21, 92, 42);
-
          }
 
 .footer-p:hover{
